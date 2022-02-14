@@ -1,0 +1,27 @@
+/* 
+
+Reemplazar imagen
+#417CF2
+#AEC5F2
+#3D8BF2
+#2D3B40
+#F2F2F2 
+*/
+:root {
+  /* Paleta de colores */
+  --color-1: #417cf2;
+  --color-2: #aec5f2;
+  --color-3: #3d8bf2;
+  --color-texto: #2d3b40;
+  --color-5: #f2f2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--color-texto);
+}
