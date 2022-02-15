@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
 
 <body>
     <header class="header" id="inicio">
-        <i class='bx bx-menu-alt-right'></i>
+        <i class="hamburger bx bx-menu-alt-right"></i>
         <nav class="navigation-menu">
             <a href="#inicio">Inicio</a>
             <a href="#servicio">Servicio</a>
@@ -24,30 +24,35 @@
             <a href="#expertos">Expertos</a>
             <a href="#contacto">Contacto</a>
         </nav>
-        <div class="head container">
-            <h1>Cosechando conocimiento</h1>
+        <div class="head">
+            <h1 class="title">Cosechando conocimiento</h1>
             <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, facere!</p>
         </div>
     </header>
     <main>
-        <section class="services-container" id="servicio">
-            <h2 class="subtitulo">Nuestro servicio</h2>
-            <div class="service-container"><img src="/img/check-list.svg" alt=""></div>
-            <div class="checklist-service">
-                <div class="service">
-                    <h3 class="n-service"><span class="number">1</span>Diseño Web</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam voluptatum sunt ipsum facilis
-                        dolorum, quaerat nobis quidem labore dignissimos velit.</p>
-                </div>
-                <div class="service">
-                    <h3 class="n-service"><span class="number">2</span>Diseño Web</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam voluptatum sunt ipsum facilis
-                        dolorum, quaerat nobis quidem labore dignissimos velit.</p>
-                </div>
-                <div class="service">
-                    <h3 class="n-service"><span class="number">3</span>Diseño Web</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam voluptatum sunt ipsum facilis
-                        dolorum, quaerat nobis quidem labore dignissimos velit.</p>
+        <section class="container about-us-services">
+            <h2 class="subtitle">Nuestro servicios</h2>
+            <div class="service-container">
+                <img src="img/check-list.svg" class="img-about-services" alt="">
+                <div class="service-checklist">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam voluptatum sunt ipsum
+                            facilis
+                            dolorum, quaerat nobis quidem labore dignissimos velit.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam voluptatum sunt ipsum
+                            facilis
+                            dolorum, quaerat nobis quidem labore dignissimos velit.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam voluptatum sunt ipsum
+                            facilis
+                            dolorum, quaerat nobis quidem labore dignissimos velit.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -64,12 +69,12 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="image-light">
-            <i class='bx bx-x'></i>
-            <img src="" alt="" class="add-image">
-        </section> -->
-        <section class="container" id="expertos">
-            <h2 class="subtitulo">Expertos en:</h2>
+        <section class="image-light">
+            <i class='close bx bx-x'></i>
+            <img src="img/fondo-header.jpg" alt="" class="add-image">
+        </section>
+        <section class="container container-experts" id="">
+            <h2 class="subtitle">Expertos en:</h2>
             <section class="experts">
                 <div class="cont-expert"><img src="img/pie-chart.svg" alt="">
                     <h3 class="n-expert">Analytics</h3>
@@ -84,9 +89,9 @@
         </section>
     </main>
     <footer id="contacto">
-        <div class="container-footer-content">
+        <div class="container footer-content">
             <div class="contact-us">
-                <h2 class="brand">Byron Mena</h2>
+                <h2 class="brand">&copy; Byron Mena</h2>
                 <p>Juntando y compartiendo conocimiento</p>
             </div>
             <div class="social-media">
@@ -101,6 +106,7 @@
                 </a>
             </div>
         </div>
+        <div class="line"></div>
     </footer>
     <!-- Enlazar javascript -->
     <script src="js/menu.js"></script>
