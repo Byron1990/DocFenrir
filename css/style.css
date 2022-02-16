@@ -71,6 +71,7 @@ header {
 
 .hamburger {
   position: fixed;
+  z-index: 0;
   top: 30px;
   right: 30px;
   background: var(--color-icono);
